@@ -1,0 +1,12 @@
+// Прижатиє футера к низу
+* {
+	margin: 0;
+	padding: 0;
+}
+main {
+	min-height: calc(100vh - 80px);
+}
+
+@import "footer/footer-top.scss";
+@import "footer/footer-icons.scss";
+@import "footer/footer-bottom.scss";
